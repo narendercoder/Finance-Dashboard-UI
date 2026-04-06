@@ -11,4 +11,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: process.env.VITE_BASH_PATH || "/finance-dashboard-ui"
 })
