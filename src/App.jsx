@@ -7,7 +7,7 @@ import { Layout } from "@/components/Layout";
 import Dashboard from "@/pages/Dashboard";
 import Transactions from "@/pages/Transactions";
 import Insights from "@/pages/Insights";
-import NotFound from "./pages/notFound";
+import NotFound from "@/pages/NotFound";
 
 const queryClient = new QueryClient();
 
